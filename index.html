@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Shopping list</title>
+     <link rel="stylesheet" href="style/style.css">
+     <link rel="stylesheet" href="style/styleRes.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+     
+     <main>
+          <h2>Shopping List</h2>
+
+          <section id="secInput">
+               <article>
+                    <label for="shopInput" id="label">Add item</label><br>
+                    <input type="text"  id="shopInput" placeholder="Baju...">
+                    <button type="submit">Add To List</button>
+               </article>
+          </section>
+
+          <section id="succsesInput"><p>successfully added items to the list</p></section>
+
+          <table cellpadding="10">
+               <tr>
+                    <th>Item</th>
+                    <th>Quantity</th>
+                    <th>type</th>
+               </tr>
+
+               <tr>
+                    <td colspan="3" class="emptyListInfo"><center>Item list is still empty ...</center></td>
+               </tr>
+
+          </table>
+
+     </main>     
+
+     <script src="script/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+@media only screen 
+     and (min-width : 200px)
+     and (max-width : 568px)
+     and (orientation : portrait){
+          main #secInput {width: 100%;}
+
+          main #secInput article:not(#label) {
+               width: 80% !important;
+               margin: auto;
+               text-align: center;
+          }
+
+          main #secInput input {width: 100%; margin-top: 5%;}
+
+          main #secInput button {
+               margin-top: 5%;
+          }
+
+          main #succsesInput {
+               width: 100%;
+          }
+
+          main table {
+               width: 100%;
+               margin-top: 10%;
+          }
+
+          main table tr th {font-size: 0.9em;}
+
+          main table tr td:nth-child(2){font-size: 1.2em;}
+
+          main table tr td .trash {
+               display: block;
+          }
+}

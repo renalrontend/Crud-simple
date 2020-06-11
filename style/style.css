@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Source+Sans+Pro:wght@300&display=swap');
+
+body {
+     margin: 0px;
+     padding: 0px;
+}
+
+main {
+     width: 75%;
+     margin: auto;
+     font-family: 'Noto Sans', sans-serif;
+}
+
+main h2 {
+     text-align: center;
+     font-size: 2em;
+     font-weight: bold;
+}
+
+main #secInput {
+     width: 50%;
+     margin: auto;
+     margin-top: 5%;
+     display: flex;
+     justify-content: center;
+}
+
+main #secInput article {
+     width: 80%;
+}
+
+main #secInput input {
+     width: 70% ;
+     height: 20px;
+     padding: 5px;
+     border-radius: 0px;
+     border: 1px solid #e6e6e6;
+     margin-top: 2%;
+}
+
+main #secInput button {
+     cursor: pointer;
+     background-color: #192841;
+     color: white;
+     border: 0px;
+     padding: 10px;
+     margin-left: 3%;
+}
+
+main #succsesInput {
+     width: 30%;
+     margin: auto;
+     text-align: center;
+     margin-top: 3%;
+     background-color: #35C54F;
+     color: white;
+     display: none;
+}
+
+main #succsesInput p{margin: 0px;}
+
+main table {
+     width: 60%;
+     border-collapse: collapse;
+     margin: auto;
+     margin-top: 5%;
+     text-align: left;
+}
+
+main table tr th:first-child{
+     width: 70%;
+}
+
+main table tr th {
+     font-size: 1em;
+}
+
+main table tr th:nth-child(2),
+main table tr th:nth-child(3) {
+     text-align: center;
+}   
+
+main table tr td {
+     font-family: 'Source Sans Pro', sans-serif;
+     border-bottom: 1px solid #ddd;
+     border-top: 1px solid #ddd;
+     word-break: break-all;
+}
+
+main table tr td:nth-child(2),
+main table tr td:nth-child(3) {
+     text-align: center;
+}   
+
+main table tr td:nth-child(2){font-size: 1.5em;}
+
+main table tr td:nth-child(2) span {
+     cursor: pointer;
+     font-size: 1em;
+}
+
+main table tr td:nth-child(2) span:first-child {margin-right: 8%;}
+main table tr td:nth-child(2) span:last-child {margin-left: 8%;}
+
+main table tr td .trash {
+     color: red;
+     text-align: center;
+     cursor: pointer;
+}
